@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01 - Presentation", "01 - Presentation", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02 - Application", "02 - Application", "{EEAE8A00-5CA2-4F5B-853C-090394684DF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03 - Domain", "03 - Domain", "{AF06F842-1A47-476F-88B5-F48855ADCF9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04 - Infrastructure", "04 - Infrastructure", "{A85A04B5-A149-4C3F-9305-80A623048A35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildSafe.API", "ChildSafe.API\ChildSafe.API.csproj", "{CF26DFF0-52D5-4BF1-91EC-2E303A9FC2FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildSafe.Services", "ChildSafe.Services\ChildSafe.Services.csproj", "{DC478905-05A6-460A-860A-A6644248E50B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildSafe.Domain", "ChildSafe.Domain\ChildSafe.Domain.csproj", "{F2BA794B-500D-48CE-89CE-E55B98CCAE89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildSafe.Infrastructure", "ChildSafe.Infrastructure\ChildSafe.Infrastructure.csproj", "{542727B9-E5A1-4784-85E2-6CFA774122D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF26DFF0-52D5-4BF1-91EC-2E303A9FC2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF26DFF0-52D5-4BF1-91EC-2E303A9FC2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF26DFF0-52D5-4BF1-91EC-2E303A9FC2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF26DFF0-52D5-4BF1-91EC-2E303A9FC2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC478905-05A6-460A-860A-A6644248E50B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC478905-05A6-460A-860A-A6644248E50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC478905-05A6-460A-860A-A6644248E50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC478905-05A6-460A-860A-A6644248E50B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2BA794B-500D-48CE-89CE-E55B98CCAE89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2BA794B-500D-48CE-89CE-E55B98CCAE89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2BA794B-500D-48CE-89CE-E55B98CCAE89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2BA794B-500D-48CE-89CE-E55B98CCAE89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{542727B9-E5A1-4784-85E2-6CFA774122D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542727B9-E5A1-4784-85E2-6CFA774122D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542727B9-E5A1-4784-85E2-6CFA774122D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542727B9-E5A1-4784-85E2-6CFA774122D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF26DFF0-52D5-4BF1-91EC-2E303A9FC2FF} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{DC478905-05A6-460A-860A-A6644248E50B} = {EEAE8A00-5CA2-4F5B-853C-090394684DF0}
+		{F2BA794B-500D-48CE-89CE-E55B98CCAE89} = {AF06F842-1A47-476F-88B5-F48855ADCF9B}
+		{542727B9-E5A1-4784-85E2-6CFA774122D7} = {A85A04B5-A149-4C3F-9305-80A623048A35}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {673A6142-8FCE-4BD1-AFF4-926A77C06463}
+	EndGlobalSection
+EndGlobal
